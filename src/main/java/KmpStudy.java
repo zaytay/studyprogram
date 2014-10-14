@@ -14,14 +14,16 @@ public class KmpStudy {
         char[] pArray=p.toCharArray();
         int next[]=getNextArray(pArray);
         printArray(next);
+        System.out.println();
         int ret=kmpJudge(sArray,pArray,next);
         System.out.println("ret:"+ret);
     }
 
     public static int kmpJudge(char[] s,char[] p,int[] next){
+        //分别定义i，j表示两个数组的位置
         int i=0;
         int j=0;
-
+        //边界条件，有一个数组已经遍历完即退出循环
         while (i<s.length && j<p.length){
             if(j==-1 || s[i]==p[j]){
                 i++;
