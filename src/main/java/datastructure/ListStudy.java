@@ -1,3 +1,5 @@
+package datastructure;
+
 /**
  * Created with IntelliJ IDEA.
  * User: zhengxuetong
@@ -62,6 +64,16 @@ public class ListStudy {
         }
         return head;
     }
+
+
+
+
+
+
+
+
+
+
 
 
 

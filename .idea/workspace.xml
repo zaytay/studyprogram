@@ -2,21 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f97d31-722e-4676-a83d-df454d127136" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Tree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ListStudy.java" afterPath="$PROJECT_DIR$/src/main/java/ListStudy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/ArrayTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithms/MatrixTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/knowledge/ParamterTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithms/SortTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\developspace\studyprogram\src\main\java\CharacterConvert.java" afterPath="$PROJECT_DIR$/src/main/java/algorithms/CharacterConvert.java" />
+      <change type="MOVED" beforePath="E:\developspace\studyprogram\src\main\java\KmpStudy.java" afterPath="$PROJECT_DIR$/src/main/java/algorithms/KmpStudy.java" />
+      <change type="MOVED" beforePath="E:\developspace\studyprogram\src\main\java\ListStudy.java" afterPath="$PROJECT_DIR$/src/main/java/datastructure/ListStudy.java" />
+      <change type="MOVED" beforePath="E:\developspace\studyprogram\src\main\java\Tree.java" afterPath="$PROJECT_DIR$/src/main/java/datastructure/Tree.java" />
     </list>
     <ignored path="studyprogram.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/ListStudy.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1413968823289" ignored="false" />
-    <file path="/Dummy.txt" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1414028687232" ignored="false" />
+    <file path="/ListStudy.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1414571670686" ignored="false" />
+    <file path="/Dummy.txt" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1415954321008" ignored="false" />
     <file path="/KmpStudy.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1413251761132" ignored="false" />
-    <file path="/fragment.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1413189006615" ignored="false" />
+    <file path="/fragment.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1415958208027" ignored="false" />
     <file path="E:/workspace/src/main/java/SortTest.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1413194358836" ignored="false" />
-    <file path="/SortTest.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1413194352663" ignored="false" />
+    <file path="/SortTest.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1415958240857" ignored="false" />
     <file path="/CharacterConvert.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1413876583305" ignored="false" />
-    <file path="/Tree.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1414061003953" ignored="false" />
+    <file path="/Tree.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1414140827438" ignored="false" />
+    <file path="E:/work/store-web/.idea/workspace.xml" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1414656689192" ignored="false" />
+    <file path="E:/workplace/store-web/src/main/java/cn/xdf/webstore/solr/SolrHandler.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1415068740300" ignored="false" />
+    <file path="/ArrayTest.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1415957859929" ignored="false" />
+    <file path="/MatrixTest.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1415958035257" ignored="false" />
+    <file path="E:/workspace/src/main/java/ParamterTest.java" changelist="77f97d31-722e-4676-a83d-df454d127136" time="1415958054767" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +41,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -67,6 +76,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -86,36 +96,72 @@
         </entry>
       </file>
       <file leaf-file-name="ListStudy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ListStudy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/ListStudy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="16" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
+            <state line="36" column="29" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tree.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Tree.java">
+      <file leaf-file-name="Tree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="18" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.43925235">
+            <state line="18" column="36" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/ArrayTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="19" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/MatrixTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="14" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParamterTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/knowledge/ParamterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="62" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/SortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="64" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CharacterConvert.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CharacterConvert.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/CharacterConvert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="39" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
+            <state line="39" column="22" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KmpStudy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/KmpStudy.java">
+      <file leaf-file-name="KmpStudy.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/KmpStudy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="14" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+            <state line="26" column="14" selection-start="652" selection-end="652" vertical-scroll-proportion="-1.2025317">
               <folding />
             </state>
           </provider>
@@ -142,8 +188,12 @@
         <option value="$PROJECT_DIR$/src/main/java/KmpStudy.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/CharacterConvert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ListStudy.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ListStudy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructure/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/MatrixTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/knowledge/ParamterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/SortTest.java" />
       </list>
     </option>
   </component>
@@ -181,8 +231,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,6 +304,94 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="knowledge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyprogram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyprogram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datastructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyprogram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyprogram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyprogram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyprogram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyprogram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyprogram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="copyright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -274,10 +412,17 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algorithms" />
+      <recent name="knowledge" />
+      <recent name="datastructure" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Tree">
     <configuration default="false" name="ListStudy" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ListStudy" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.ListStudy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -294,7 +439,7 @@
     </configuration>
     <configuration default="false" name="KmpStudy" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="KmpStudy" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.KmpStudy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -317,7 +462,7 @@
     </configuration>
     <configuration default="false" name="CharacterConvert" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CharacterConvert" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.CharacterConvert" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -334,7 +479,7 @@
     </configuration>
     <configuration default="false" name="Tree" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Tree" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.Tree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -363,6 +508,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -389,19 +547,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -504,11 +649,15 @@
       <created>1413876747374</created>
       <updated>1413876747374</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tree parctice">
+      <created>1414061106752</created>
+      <updated>1414061106752</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -522,17 +671,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5957194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33015496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18638574" sideWeight="0.66984504" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33015496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33015496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33015496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -575,7 +724,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="单词转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="tree parctice" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -592,6 +741,7 @@
     <MESSAGE value="kmp" />
     <MESSAGE value="CharacterConvert" />
     <MESSAGE value="单词转换" />
+    <MESSAGE value="tree parctice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -601,42 +751,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ListStudy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/ListStudy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="4" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KmpStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="29" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ListStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="4" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KmpStudy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/KmpStudy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="22" selection-start="548" selection-end="549" vertical-scroll-proportion="0.0">
           <folding />
@@ -650,14 +772,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ListStudy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/ListStudy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="4" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KmpStudy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/KmpStudy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="31" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
           <folding />
@@ -671,23 +793,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ListStudy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/ListStudy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="22" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KmpStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CharacterConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="39" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -699,16 +807,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ListStudy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/CharacterConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="16" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
+        <state line="39" column="22" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tree.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="18" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.43925235">
+        <state line="18" column="36" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/ListStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="29" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/MatrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/knowledge/ParamterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="62" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/SortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="64" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/KmpStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="14" selection-start="652" selection-end="652" vertical-scroll-proportion="-1.2025317">
           <folding />
         </state>
       </provider>

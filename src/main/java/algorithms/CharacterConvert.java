@@ -1,3 +1,5 @@
+package algorithms;
+
 /**
  * Created with IntelliJ IDEA.
  * User: zhengxuetong

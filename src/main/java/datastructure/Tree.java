@@ -1,3 +1,5 @@
+package datastructure;
+
 /**
  * Created with IntelliJ IDEA.
  * User: zhengxuetong
@@ -24,8 +26,6 @@ public class Tree {
         n4.left=n8;
         int depth=getDepthOfTree(root);
         System.out.println(depth);
-
-
     }
 
     private static class TreeNode{
@@ -68,22 +68,14 @@ public class Tree {
             return false;
         }
         return avlJudge(root.right) && avlJudge(root.left);
-
-
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    private int getNodeNum(TreeNode root){
+        if(root == null){
+            return 0;
+        }
+        return getNodeNum(root.left)+getNodeNum(root.right)+1;
+    }
 
 
 
