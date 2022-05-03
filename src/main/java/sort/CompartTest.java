@@ -9,7 +9,7 @@ public class CompartTest {
 
 
     public static void main(String[] args) {
-        List<Long> idList=new ArrayList<>();
+        List<Long> idList=new ArrayList<Long>();
         idList.add(1L);
         idList.add(-3L);
         idList.add(15L);

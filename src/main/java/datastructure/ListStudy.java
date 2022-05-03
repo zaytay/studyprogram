@@ -49,20 +49,16 @@ public class ListStudy {
 
     //翻转链表
     public static Node reverseList(Node head){
-        //如果为空或者只有一个节点，直接返回头结点
-        if(head == null || head.next==null){
-            return head;
-        }
-        //处理头结点的next指针
-        Node cur=head.next;
-        head.next=null;
+        Node cur=head;
+        Node prev = null;
+        //head.next=null;
         while (cur!=null){
             Node nextNode=cur.next;
-            cur.next=head;
-            head=cur;
-            cur=nextNode;
+            cur.next=prev;
+            prev= cur;
+            cur= nextNode;
         }
-        return head;
+        return prev;
     }
 
 
