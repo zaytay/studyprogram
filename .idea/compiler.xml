@@ -7,13 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="studyprogram" />
-        <module name="WMS" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hello" target="1.7" />
-      <module name="studyprogram" target="1.7" />
-      <module name="WMS" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
