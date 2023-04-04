@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
@@ -23,15 +25,16 @@ public class CompletableFutureTest {
             doSomething(executor, resultList, futureList);
         } catch (Exception e) {
             System.out.println("main 处理了异常 -> " + e.getMessage());
+            System.out.println(e);
         }
         System.out.println("resultlist:"+resultList);
         System.out.println("方法执行时间: " + (System.currentTimeMillis() - start));
         System.out.println("main 执行完了...");
-        executor.shutdown();
+        //executor.shutdown();
     }
 
 
-    private static void doSomething(ThreadPoolExecutor executor, List<Integer> resultList, List<CompletableFuture<Integer>> futureList) {
+    private static void doSomething(ThreadPoolExecutor executor, List<Integer> resultListP, List<CompletableFuture<Integer>> futureList) throws ExecutionException, InterruptedException, TimeoutException {
         for (int i = 0; i < 10; i++) {
             int finalI = i;
             System.out.println("提交任务"+finalI);
@@ -46,7 +49,9 @@ public class CompletableFutureTest {
                     try {
                         Thread.sleep(10000);
                     } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
+                        System.out.println("业务异常... -> " + finalI);
+                        throw new RuntimeException("业务异常... -> " + finalI);
+                        //throw new RuntimeException(e);
                     }
                 }
                 if (finalI == 4) {
@@ -66,32 +71,39 @@ public class CompletableFutureTest {
                     System.out.println("CompletableFuture处理异常 -> " + e.getMessage());
                     throw new RuntimeException("CompletableFuture处理异常 -> " + e.getMessage());
                 }
-                resultList.add(result);
+                //resultList.add(result);
                 return result;
-            });
+            })/*.exceptionally(throwable -> {
+                System.out.println("捕获到了异常--------------------");
+                return 1000;
+            })*/;
             futureList.add(future);
         }
         System.out.println("begin allof");
         AtomicInteger i= new AtomicInteger();
         CompletableFuture<Void> completableFuture = CompletableFuture.allOf(futureList.toArray(new CompletableFuture[0]));
-        completableFuture.thenApply(r->futureList.stream().map(f->{
+        futureList.forEach(f->f.exceptionally(e->{
+            completableFuture.completeExceptionally(e);
+            return 10000;
+        }));
+        resultList.addAll(completableFuture.thenApply(r->futureList.stream().map(f->{
             System.out.println("beigin join "+ i.getAndIncrement());
             return f.join();
-        }).collect(Collectors.toList())).join();
+        }).collect(Collectors.toList())).join());
         System.out.println("end allof");
-        if (completableFuture.isCompletedExceptionally()) {
+/*        if (completableFuture.isCompletedExceptionally()) {
             System.out.println("find exception");
             //throw new RuntimeException("sdfsd");
         } else {
             System.out.println("begin collect");
-/*
+*//*
             resultList.addAll(futureList.stream().map(r->{
                 System.out.println("beigin join "+ i.getAndIncrement());
                 return r.join();
             }).collect(Collectors.toList()));
-*/
+*//*
             System.out.println("end collect");
-        }
+        }*/
         System.out.println("tasksdf");
         System.out.println(resultList.size());
         System.out.println(resultList);
